@@ -5,8 +5,8 @@ import os
 
 from datatypes import XScreenSaverInfo
 
-xlib = ctypes.cdll.LoadLibrary( 'libX11.so')
-xss = ctypes.cdll.LoadLibrary( 'libXss.so')
+xlib = ctypes.cdll.LoadLibrary( 'libX11.so.6')
+xss = ctypes.cdll.LoadLibrary( 'libXss.so.1')
 
 def idle_time_ms(display=None):
 

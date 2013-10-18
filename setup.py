@@ -8,5 +8,6 @@ setuptools.setup(
     description  = 'Return X idle time in milliseconds',
     name         = 'xidle',
     packages     = ['xidle'],
+    version      = 2,
 )
 
